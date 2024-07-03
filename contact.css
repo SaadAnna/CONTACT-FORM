@@ -1,0 +1,73 @@
+
+body{
+    background-color: rgb(29, 0, 57);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#Form{
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    left: 170px;
+    top: 100px;
+        width: 50%;
+     text-align: center;
+    background-color: rgb(78, 0, 151);
+}
+input{
+    width: 100%;
+    height: 1.9rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+select{
+    width: 100%;
+    height: 1.9rem;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 20px;}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
+label{
+    margin-top: 15px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    color: white;
+    background-color: rgba(167, 41, 41, 0.808);
+    transition: 0.5ms;
+    padding: 15px 30px 15px 30px ;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: fantasy;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items:center;
+}
+button:hover{
+    background-color:rgba(235, 14, 14, 0.808) ;
+}
+input::placeholder{
+    text-transform: uppercase;
+}
